@@ -1,0 +1,96 @@
+/*
+Wordpress Popular Posts plugin stylesheet
+Developed by Hector Cabrera
+cabrerahector.com | @cabrerahector
+
+Use the following classes to style your popular posts list as you like.
+*/
+
+/* Styles the "Sorry, no data so far" message */
+
+
+.wpp-no-data {
+}
+
+/* UL - Popular Posts container styles */
+
+.wpp-list {	
+	
+}
+
+	/* LI - Post container styles */
+	.wpp-list li {
+		overflow:hidden;
+		float:none;
+		clear:both;
+	}
+	
+	/* Styles for the popular post in view */
+	.wpp-list li.current {
+	}
+	
+		/* Thumbnail styles */
+		.wpp-thumbnail {
+			display:inline;
+			float:left;
+			margin:0 5px 0 0;
+			border:none;
+		}
+
+		/* Title styles */
+		.wpp-post-title {
+			font: 600 14px 'Open Sans';
+			color: #3b3b3b;
+			margin-bottom: 15px;
+		}
+
+		
+		/* Excerpt styles */
+		.wpp-excerpt {
+			font: 14px/28px 'Open Sans';
+			margin-bottom: 20px;
+		}
+		
+		/* Stats tag styles */
+		.post-stats {
+			display:block;
+			font-size:9px;
+			font-weight:bold;
+		}
+			
+			/* Comments count styles */
+			.wpp-comments {
+			}
+			
+			/* Views count styles */
+			.wpp-views {
+			}
+			
+			/* Author styles */
+			.wpp-author {
+			}
+			
+			/* Post date styles */
+			.wpp-date {
+			}
+			
+			/* Post category styles */
+			.wpp-category {
+				color: #a6a6a6;
+				font-size: 14px;
+				font-weight: 300;
+			}
+		
+			.wpp-category a {
+				color: #3b3b3b;
+				font-weight: 600 ;
+				text-decoration: none;}
+
+			.wpp-category a:hover {
+				text-decoration: underline;
+			}
+			
+			
+		/* WP-PostRatings styles */
+		.wpp-rating {
+		}
