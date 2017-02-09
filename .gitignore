@@ -1,0 +1,5 @@
+# Ignore the following! (Hello Grace!)
+
+.htaccess
+wp-config.php
+wp-content/uploads/

@@ -567,6 +567,9 @@ body {
 .home .page-header {
 	display: none;
 }
+.home .footer {
+	display: none;
+}
 .home .main-content {
 	width: 100%;
 	float: none;
